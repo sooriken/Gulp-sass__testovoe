@@ -1,0 +1,64 @@
+mixin content
+    .content
+        // welcome block
+        .welcome
+            .welcome__title <span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span>
+            .welcome__textblock 
+                .welcome__textblock-title At vero eos et accusamus et iusto odio dignissimos ducimus!
+                .welcome__textblock-description - Totam rem aperiam eaque ipsa
+                .welcome__textblock-description - Sit voluptatem accusantium doloremque laudantium
+                .welcome__textblock-description - Sit voluptatem accusantium doloremque laudantium
+            .welcome__button-inner
+                a.button(href="#") заказать
+                a.button.button--white(href="#") подробнее 
+        
+        // order block
+        .order
+            .order__title Оформление <span>Заказа</span>
+            .order__subtitle Перед заполнением формы ознакомьтесь с нашей схемой работы!
+            // info block
+            .info
+                .info__item
+                    .info__item-image
+                        img(src="./images/info/info-1.png")
+                    .info__item-text Lorem ipsum dolor sit amet
+                .info__item
+                    .info__item-image
+                        img(src="./images/info/info-2.png")
+                    .info__item-text Сonsecteturadipiscing elit
+                .info__item
+                    .info__item-image
+                        img(src="./images/info/info-3.png")
+                    .info__item-text Sed do eiusmod tempor
+                .info__item
+                    .info__item-image
+                        img(src="./images/info/info-4.png")
+                    .info__item-text Esse cillum dolore eu fugiat
+                .info__item
+                    .info__item-image  
+                        img(src="./images/info/info-5.png")
+                    .info__item-text Excepteur sint occaecat cupidatat non proident
+            .form
+                .form__inputs-inner
+                    .form__dropdown 
+                        select(name="dog-names" id="dog-names")
+                            option(value="rigatoni") Rigatoni
+                            option(value="dave") Dave
+                            option(value="pumpernickel") Pumpernickel
+                            option(value="reeses") Reeses
+                    .form__textform
+                        input.textform(type="text" placeholder="Ваш e-mail")
+                    .form__textform
+                        input.textform(type="text" placeholder="Ваше имя")
+                .form__range-inner
+                    .form__range
+                        .form__range-label
+                            .form__range-text Sed ut perspiciatis, unde omnis iste natus
+                            .form__range-percent <span>75</span> %
+                        input.range(type="range")
+                    .form__button  
+                        a.button.button--white(href="#") Прикрепить файл
+            .order__button-inner
+                a.button(href="#") Отправить
+                
+            
