@@ -41,15 +41,17 @@ mixin content
             .form
                 .form__inputs-inner
                     .form__dropdown 
-                        select(name="dog-names" id="dog-names")
-                            option(value="rigatoni") Rigatoni
-                            option(value="dave") Dave
-                            option(value="pumpernickel") Pumpernickel
-                            option(value="reeses") Reeses
+                        select(name="sistem-name")
+                            option(value="default") Выберите тип системы
+                            option(value="sed") Sed ut perspiciatis
+                            option(value="nemo") Nemo enim ipsam
+                            option(value="et") Et harum quidem
+                            option(value="temporibus") Temporibus autem
+                            option(value="itaque") Itaque earum rerum
                     .form__textform
-                        input.textform(type="text" placeholder="Ваш e-mail")
+                        input.textform(type="email" name="email" placeholder="Ваш e-mail")
                     .form__textform
-                        input.textform(type="text" placeholder="Ваше имя")
+                        input.textform(type="text" name="name" placeholder="Ваше имя")
                 .form__range-inner
                     .form__range
                         .form__range-label
